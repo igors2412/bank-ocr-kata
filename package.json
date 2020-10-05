@@ -1,0 +1,25 @@
+{
+    "name": "bank-ocr-kata",
+    "version": "1.0.0",
+    "description": "https://ccd-school.de/en/coding-dojo/application-katas/bankocr/",
+    "scripts": {
+        "start": "ts-node src/main.ts",
+        "build": "gulp && webpack && pkg build/loc.js --out-path build",
+        "pack": "pkg build/loc.js --out-path build",
+        "clean": "gulp"
+    },
+    "keywords": [],
+    "author": "Igor Schneider",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^14.11.2",
+        "awesome-typescript-loader": "^5.2.1",
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "pkg": "^4.4.9",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.3",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12"
+    }
+}

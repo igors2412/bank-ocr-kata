@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noImplicitAny": false,
+        "module": "CommonJS",
+        "lib": ["ES2015", "DOM"],
+        "sourceMap": false,
+        "declaration": false
+    }
+}
