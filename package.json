@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "https://ccd-school.de/en/coding-dojo/application-katas/bankocr/",
     "scripts": {
-        "start": "ts-node src/main.ts",
-        "build": "gulp && webpack && pkg build/loc.js --out-path build",
-        "pack": "pkg build/loc.js --out-path build",
+        "start": "ts-node src/main.ts test-data/t1.txt",
+        "build": "gulp && webpack && pkg build/bocr.js --out-path build",
+        "pack": "pkg build/bocr.js --out-path build",
         "clean": "gulp"
     },
     "keywords": [],

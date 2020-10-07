@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
     mode: 'production',
     entry: {
-        'loc': './src/main.ts',
+        'bocr': './src/main.ts',
     },
     target: 'node',
     output: {
